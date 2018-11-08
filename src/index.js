@@ -12,5 +12,5 @@ app.use(require('./routes/routes.js'));
 
 //server
 app.listen(app.get('port'), () => {
-    console.log('server running');
+    console.log('server running on port ', app.get('port'));
 });
